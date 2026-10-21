@@ -1,0 +1,328 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <title>Anjika Ganjoo | Mechanical Engineering & Robotics</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Anjika Ganjoo's engineering portfolio: robotics, mechanical design, assistive technology, and autonomous systems.">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <style>
+    /* Header Headshot / Initials Box Style */
+    #header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .header-profile-box {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    .profile-avatar-placeholder {
+      width: 44px;
+      height: 44px;
+      background: #1a202c;
+      color: #ffffff;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 0.95rem;
+      letter-spacing: 0.5px;
+      overflow: hidden;
+      flex-shrink: 0;
+    }
+    .profile-avatar-placeholder img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* Structured Skill Widget Cards */
+    .skill-widget-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .skill-card {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      padding: 1.5rem;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .skill-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+    }
+    .skill-card h3 {
+      font-size: 1.15rem;
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      color: #1a202c;
+      border-bottom: 2px solid #edf2f7;
+      padding-bottom: 0.5rem;
+    }
+    .skill-card p {
+      font-size: 0.98rem;
+      line-height: 1.6;
+      color: #4a5568;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <div id="wrapper">
+    <header id="header">
+      <div class="header-profile-box">
+        <!-- Replace inner <img> when you have your headshot photo -->
+        <div class="profile-avatar-placeholder">AG</div>
+        <h1><a href="index.html">ANJIKA GANJOO</a></h1>
+      </div>
+      <nav class="links" aria-label="Main navigation">
+        <ul>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <nav class="main" aria-label="Quick links">
+        <ul>
+          <li><a class="resume-link" href="resume.pdf" target="_blank" rel="noopener">Resume ↗</a></li>
+          <li><a class="menu-toggle" href="#menu" aria-label="Open menu">☰</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="menu" aria-label="Mobile navigation">
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+      <a href="resume.pdf" target="_blank" rel="noopener">Resume</a>
+    </section>
+
+    <div id="main">
+      <section class="hero">
+        <p class="eyebrow">MECHANICAL ENGINEERING · ROBOTICS · AUTONOMOUS SYSTEMS</p>
+        <h2>Portfolio</h2>
+        <p class="hero-copy">I'm Anjika, a third year at Georgia Tech passionate about robotics, autonomous systems, and products that solve meaningful real-world problems.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Explore my work <span aria-hidden="true">↓</span></a>
+          <a class="button" href="#contact">Get in touch</a>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="content-section">
+        <div class="section-heading">
+          <div><p class="eyebrow">SELECTED WORK</p><h2>Projects</h2></div>
+        </div>
+        <div class="project-grid">
+          
+          <!-- 01 / Drone Autonomous System Hardware + Software Integration -->
+          <article class="project-card">
+            <a class="project-visual visual-autonomy" href="projects/autonomy.html" aria-label="View drone autonomous system hardware and software integration project">
+              <span class="visual-label">01 / AUTONOMOUS SYSTEMS</span><span class="visual-art">DRONE<span>_</span></span>
+            </a>
+            <div class="project-body">
+              <p class="project-type">ROBOTICS · HARDWARE · SOFTWARE INTEGRATION</p>
+              <h3><a href="projects/autonomy.html">Drone Autonomy System Development</a></h3>
+              <ul class="tags"><li>Python</li><li>ROS2</li><li>Computer Vision</li><li>SolidWorks</li></ul>
+              <a class="text-link" href="projects/autonomy.html">View project <span>↗</span></a>
+            </div>
+          </article>
+
+          <!-- 02 / ME 2110 Competition Robot -->
+          <article class="project-card">
+            <a class="project-visual visual-me2110" href="projects/me2110-robot.html" aria-label="View ME 2110 competition robot project">
+              <span class="visual-label">02 / ROBOTICS & CONTROL</span><span class="visual-art">ME<span>2110</span></span>
+            </a>
+            <div class="project-body">
+              <p class="project-type">MECHATRONICS · COMPETITION ROBOTICS</p>
+              <h3><a href="projects/me2110-robot.html">Autonomous Competition Robot</a></h3>
+              <ul class="tags"><li>SolidWorks</li><li>Arduino</li><li>Mechatronics</li></ul>
+              <a class="text-link" href="projects/me2110-robot.html">View project <span>↗</span></a>
+            </div>
+          </article>
+
+          <!-- 03 / Exoskeleton Component Design -->
+          <article class="project-card">
+            <a class="project-visual visual-exo" href="projects/exoskeleton.html" aria-label="View exoskeleton component design project">
+              <span class="visual-label">03 / BIOMECHANICS</span><span class="visual-art">EXO<span>·</span></span>
+            </a>
+            <div class="project-body">
+              <p class="project-type">ASSISTIVE TECHNOLOGY · MECHANICAL DESIGN</p>
+              <h3><a href="projects/exoskeleton.html">Exoskeleton Component Design</a></h3>
+              <ul class="tags"><li>SolidWorks</li><li>Prototyping</li><li>Manufacturing</li></ul>
+              <a class="text-link" href="projects/exoskeleton.html">View project <span>↗</span></a>
+            </div>
+          </article>
+
+          <!-- 04 / Vision Language Action Model Pipeline -->
+          <article class="project-card">
+            <a class="project-visual visual-vla" href="projects/robot-learning.html" aria-label="View Vision Language Action Model pipeline project">
+              <span class="visual-label">04 / ROBOT LEARNING</span><span class="visual-art">VLA<span>_</span></span>
+            </a>
+            <div class="project-body">
+              <p class="project-type">ROBOT LEARNING · AI PIPELINES</p>
+              <h3><a href="projects/robot-learning.html">Vision Language Action Model Training</a></h3>
+              <ul class="tags"><li>LeRobot</li><li>Python</li><li>VLA</li><li>Teleoperation</li></ul>
+              <a class="text-link" href="projects/robot-learning.html">View project <span>↗</span></a>
+            </div>
+          </article>
+
+          <!-- 05 / Prosthetic Feedback Component Design -->
+          <article class="project-card">
+            <a class="project-visual visual-prosthetic" href="projects/prosthetic.html" aria-label="View prosthetic feedback component design project">
+              <span class="visual-label">05 / HUMAN-CENTERED DESIGN</span><span class="visual-art">HAND<span>+</span></span>
+            </a>
+            <div class="project-body">
+              <p class="project-type">MEDICAL ROBOTICS · FEEDBACK SYSTEMS</p>
+              <h3><a href="projects/prosthetic.html">Prosthetic Feedback Component Design</a></h3>
+              <ul class="tags"><li>Fusion 360</li><li>User-Centric Design</li><li>3D Prototyping</li></ul>
+              <a class="text-link" href="projects/prosthetic.html">View project <span>↗</span></a>
+            </div>
+          </article>
+
+          <!-- 06 / Air Traffic Control Decision Support & LLM Research -->
+          <article class="project-card">
+            <a class="project-visual visual-atc" href="projects/mitre-atc.html" aria-label="View Air Traffic Control decision support and LLM research project">
+              <span class="visual-label">06 / HUMAN-AI INTERACTION</span><span class="visual-art">ATC<span>_</span></span>
+            </a>
+            <div class="project-body">
+              <p class="project-type">DECISION SUPPORT · LLM RESEARCH</p>
+              <h3><a href="projects/mitre-atc.html">Air Traffic Control Decision Support & LLM Research</a></h3>
+              <ul class="tags"><li>LLMs</li><li>UI/UX</li><li>Decision Support</li><li>Human Factors</li></ul>
+              <a class="text-link" href="projects/mitre-atc.html">View project <span>↗</span></a>
+            </div>
+          </article>
+
+          <!-- 07 / Educational Go Kart -->
+          <article class="project-card">
+            <a class="project-visual visual-gokart" href="projects/go-kart.html" aria-label="View ME 1670 Go Kart project">
+              <span class="visual-label">07 / MECHANICAL DESIGN</span><span class="visual-art">KART<span>_</span></span>
+            </a>
+            <div class="project-body">
+              <p class="project-type">SUBSYSTEM ASSEMBLY · VEHICLE DESIGN</p>
+              <h3><a href="projects/go-kart.html">Educational Go Kart</a></h3>
+              <ul class="tags"><li>CAD</li><li>SolidWorks Assembly</li><li>DFM</li></ul>
+              <a class="text-link" href="projects/go-kart.html">View project <span>↗</span></a>
+            </div>
+          </article>
+
+          <!-- 08 / Cultural Decorative Item -->
+          <article class="project-card">
+            <a class="project-visual visual-decorative" href="projects/decorative-item.html" aria-label="View ME 1670 decorative design item project">
+              <span class="visual-label">08 / PRODUCT DESIGN</span><span class="visual-art">DECOR<span>+</span></span>
+            </a>
+            <div class="project-body">
+              <p class="project-type">PROTOTYPING · RAPID FABRICATION</p>
+              <h3><a href="projects/decorative-item.html">Cultural Decorative Item</a></h3>
+              <ul class="tags"><li>SolidWorks Design</li><li>3D Printing</li><li>Prototyping</li></ul>
+              <a class="text-link" href="projects/decorative-item.html">View project <span>↗</span></a>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- Experience Section -->
+      <section id="experience" class="content-section experience-section">
+        <div class="section-heading">
+          <div><p class="eyebrow">WHERE I'VE CONTRIBUTED</p><h2>Experience</h2></div>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-date">2025–Present</div>
+            <div>
+              <h3>Johns Hopkins Applied Physics Laboratory</h3>
+              <p class="role">Intern · Cyber-Physical Systems</p>
+              <p>Contribute to research and development in autonomous and cyber-physical systems.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-date">2025–Present</div>
+            <div>
+              <h3>GT Society of Women Engineers (GT-SWE)</h3>
+              <p class="role">VP of Industry Relations</p>
+              <p>Lead corporate relations, direct industry engagement initiatives, and build career partnerships for female engineering students.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-date">2025–Present</div>
+            <div>
+              <h3>Georgia Tech EPIC Lab</h3>
+              <p class="role">Undergraduate Researcher · Exoskeletons & Prosthetics</p>
+              <p>Contribute to CAD, prototyping, and design work for wearable robotics and assistive technology.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-date">2025–Present</div>
+            <div>
+              <h3>Georgia Tech School of Mathematics</h3>
+              <p class="role">Undergraduate TA · Linear Algebra</p>
+              <p>Facilitate weekly recitation sections, held office hours, and guided students through linear algebra course.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-date">2025</div>
+            <div>
+              <h3>MITRE</h3>
+              <p class="role">Systems Engineering Intern</p>
+              <p>Worked on an LLM-enabled air traffic decision-support concept, including LLM information translation/summarization and visualization for human review.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-date">2024–Present</div>
+            <div>
+              <h3>Consult Your Community</h3>
+              <p class="role">Senior Business Analyst</p>
+              <p>Provide pro-bono strategic advisory services, market analysis, and operational strategies for small businesses and non-profits in Atlanta.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="content-section">
+        <div class="section-heading">
+          <div><p class="eyebrow">EXPERTISE</p><h2>Skills</h2></div>
+        </div>
+        <div class="skill-widget-grid">
+          <div class="skill-card">
+            <h3>Programming & Software</h3>
+            <p>Python (OpenCV, PyMAVLink, Dash) · MATLAB · ROS 2 · Linux · Arduino</p>
+          </div>
+          <div class="skill-card">
+            <h3>CAD & Hardware</h3>
+            <p>SolidWorks · Fusion 360 · Prototyping · DFM· Laser Cutting · Carbon Fiber Manufacturing</p>
+          </div>
+          <div class="skill-card">
+            <h3>AI & Robotics</h3>
+            <p>Machine Learning (LLMs, VLAs) · Biomechanics · Assistive Technology</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <p>I'd love to hear about robotics, product design, and engineering opportunities.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="mailto:anjika.ganjoo@gmail.com">Email me ↗</a>
+          <a class="button" href="https://www.linkedin.com/in/anjika-ganjoo/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+      </section>
+    </div>
+
+    <footer id="footer">
+      <p>© <span id="year">2026</span> Anjika Ganjoo · Built with HTML & CSS</p>
+    </footer>
+  </div>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

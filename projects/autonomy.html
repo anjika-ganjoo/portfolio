@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Autonomous Systems & Integration | Anjika Ganjoo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <style>
+    /* Styling for restricted notice callout */
+    .restricted-notice {
+      background: #f8fafc;
+      border-left: 4px solid #64748b;
+      padding: 1.25rem;
+      border-radius: 0 8px 8px 0;
+      margin: 1.5rem 0;
+      color: #334155;
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <div id="wrapper">
+    <header id="header">
+      <h1><a href="../index.html">ANJIKA GANJOO</a></h1>
+      <nav class="links">
+        <ul>
+          <li><a href="../index.html#projects">Projects</a></li>
+          <li><a href="../index.html#skills">Skills</a></li>
+          <li><a href="../index.html#experience">Experience</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <nav class="main">
+        <ul>
+          <li><a class="resume-link" href="../resume.pdf" target="_blank" rel="noopener">Resume ↗</a></li>
+          <li><a class="menu-toggle" href="#menu" aria-label="Open menu">☰</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="menu">
+      <a href="../index.html#projects">Projects</a>
+      <a href="../index.html#skills">Skills</a>
+      <a href="../index.html#experience">Experience</a>
+      <a href="../index.html#contact">Contact</a>
+      <a href="../resume.pdf" target="_blank" rel="noopener">Resume</a>
+    </section>
+
+    <main id="main">
+      <section class="hero">
+        <p class="eyebrow">HARDWARE · SOFTWARE INTEGRATION · JOHNS HOPKINS APL</p>
+        <h2>Drone Autonomy System Development</h2>
+        <p class="hero-copy">Mechanical design and computer-vision-based landing integration work supporting autonomous UAV operations.</p>
+        <div class="hero-actions"><a class="button" href="../index.html#projects">← All projects</a></div>
+      </section>
+      
+      <section class="content-section project-detail">
+        <h2>Overview</h2>
+        <p>Developed during my work at the Johns Hopkins University Applied Physics Laboratory (JHU APL), this project sought to integrate a ground vehicle with a fleet of FPV (First-Person View) drones, creating a multi-agent autonomous platform.</p>
+
+        <div class="restricted-notice">
+          <strong>Note on Documentation:</strong> Due to security guidelines associated with my work at JHU APL, images, raw datasets, code, and CAD schematics cannot be publicly displayed.
+        </div>
+
+        <h2>My Contribution</h2>
+
+        <h3>Mechanical & Hardware Design</h3>
+        <ul>
+          <li><strong>Rotating Landing Mechanism:</strong> Designed a custom multi-drone landing platform in SolidWorks to house six FPV drones on top of an active UGV platform.</li>
+          <li><strong>CAD Iteration & DFM:</strong> Iterated through 8 design revisions to accommodate FPV drone landing tolerances, optimize mechanical assembly, and ensure component 3D printability.</li>
+          <li><strong>Hardware Selection:</strong> Passed technical design review and specified electronic components, motor actuators, and mechanical fasteners for system fabrication.</li>
+        </ul>
+
+        <h3>Computer Vision & Software Integration</h3>
+        <ul>
+          <li><strong>Drone Hardware Integration:</strong> Deconstructed drone hardware to connect flight controller and visual transmitter to receiver and ground station to bypass compute limitations onboard the FPV.</li>
+          <li><strong>Autonomous Landing Pipeline:</strong> Developed computer vision algorithm using OpenCV and ArUco tags, enabling FPV drones to execute autonomous precision landing sequences.</li>
+          <li><strong>Ground Station Communication:</strong> Programmed software linking ground station processing nodes directly with drone flight controllers for real-time vector guidance.</li>
+        </ul>
+
+        <h2>Key Takeaways</h2>
+        <p>Gained hands-on experience in mechatronics system design, working with various drone components, and developing computer vision pipelines for real-time robotic platforms.</p>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <p>© <span id="year">2026</span> Anjika Ganjoo</p>
+      <a href="../index.html">Home ↑</a>
+    </footer>
+  </div>
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>
